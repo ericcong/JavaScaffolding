@@ -27,6 +27,14 @@ Lightweight bootstrap and utility scripts for tiny Java projects
 
 For example: `init-java Foo` will create a new project under current directory.
 
+### Init a class
+
+Under `src`, run:
+
+`init-class $package_name.$class_name`
+
+For example: `init-class foo.bar.Test` will create the directory `foo/bar` under the current directory and the file `Test.java` with package information.
+
 ### Get dependency
 
 Go to `lib` directory, use this command:
