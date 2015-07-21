@@ -2,6 +2,12 @@
 
 Lightweight bootstrap and utility scripts for tiny Java projects
 
+## Setup
+
+1. Clone this repository
+2. Add the cloned repository into your PATH by inserting `PATH=$PATH:${the repository's path}` into `~/.bash_profile`
+3. Install `ivy` by `brew install ivy`
+
 ## Scaffolding structure
 
 ```
@@ -40,4 +46,3 @@ The entry class is `src/$name`
 ### Package
 
 Feel free to add packages into `src`
-
