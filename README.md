@@ -47,7 +47,7 @@ Then it will download the library along with all its dependencies into the curre
 
 `make`
 
-This will generate a jar file that includes all compiled class files under `src` and jar files under `lib`
+This will generate a jar file that includes all compiled class files for the source codes in `src` and jar files in `lib`
 
 The entry class is `src/$name`
 
