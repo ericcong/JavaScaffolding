@@ -4,6 +4,7 @@ name=$1
 script_dir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 mkdir $name
 cp $script_dir/assets/Makefile `pwd`/$name/
+sed -i "" "1s/__project_name__/$name/" `pwd`/$name/Makefile
 mkdir `pwd`/$name/lib
 mkdir `pwd`/$name/src
 mkdir `pwd`/$name/src/assets
